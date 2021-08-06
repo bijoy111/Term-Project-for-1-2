@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.*?>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="446.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Option1">
+   <children>
+      <HBox alignment="CENTER" prefHeight="100.0" prefWidth="600.0" style="-fx-background-color: blue;">
+         <children>
+            <Label text="Search Players" textAlignment="CENTER" textFill="#f70505">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+      <VBox layoutX="14.0" layoutY="121.0" prefHeight="282.0" prefWidth="152.0" spacing="15.0">
+         <children>
+            <Button fx:id="playername" mnemonicParsing="false" onAction="#playername" prefHeight="38.0" prefWidth="154.0" style="-fx-background-color: black;" text="Player Name" textFill="#ffa2a2">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="clubandcountryname" mnemonicParsing="false" onAction="#clubandcountryname" prefHeight="38.0" prefWidth="154.0" style="-fx-background-color: black;" text="Country Name" textFill="#ffa2a2">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="position" mnemonicParsing="false" onAction="#position" prefHeight="37.0" prefWidth="153.0" style="-fx-background-color: black;" text="Position" textFill="#ffa2a2">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="salaryrange" mnemonicParsing="false" onAction="#salaryrange" prefHeight="33.0" prefWidth="156.0" style="-fx-background-color: black;" text="Salary Range" textFill="#ffa2a2">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="countrywiseplayercount" mnemonicParsing="false" onAction="#countrywiseplayercount" prefHeight="34.0" prefWidth="150.0" style="-fx-background-color: black;" text="Country Wise Players" textFill="#ffa2a2">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="backtomainmenu" mnemonicParsing="false" onAction="#backtomainmenu" prefHeight="40.0" prefWidth="157.0" style="-fx-background-color: black;" text="Main Menu" textFill="#ffa2a2">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

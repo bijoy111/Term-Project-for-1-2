@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.*?>
+<AnchorPane prefHeight="399.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Option2">
+   <children>
+      <HBox alignment="CENTER" prefHeight="111.0" prefWidth="600.0" style="-fx-background-color: blue;">
+         <children>
+            <Text fill="#f70505" strokeType="OUTSIDE" strokeWidth="0.0" text="Club Information" textAlignment="CENTER" wrappingWidth="284.00001204013824">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Text>
+         </children>
+      </HBox>
+      <VBox layoutX="23.0" layoutY="118.0" prefHeight="282.0" prefWidth="134.0" spacing="15.0">
+         <children>
+            <Button fx:id="maximumsalary" mnemonicParsing="false" onAction="#maximumsalary" prefHeight="42.0" prefWidth="140.0" style="-fx-background-color: black;" text="Maximum Salary " textFill="#ffa2a2">
+               <font>
+                  <Font size="14.0" />
+               </font></Button>
+            <Button fx:id="maximumage" mnemonicParsing="false" onAction="#maximumage" prefHeight="42.0" prefWidth="137.0" style="-fx-background-color: black;" text="Maximum Age" textFill="#ffa2a2">
+               <font>
+                  <Font size="14.0" />
+               </font></Button>
+            <Button fx:id="maximumheight" mnemonicParsing="false" onAction="#maximumheight" prefHeight="42.0" prefWidth="136.0" style="-fx-background-color: black;" text="Maximum Height" textFill="#ffa2a2">
+               <font>
+                  <Font size="14.0" />
+               </font></Button>
+            <Button fx:id="yearlysalary" mnemonicParsing="false" onAction="#totalyearlysalary" prefHeight="42.0" prefWidth="135.0" style="-fx-background-color: black;" text="Total Yearly Salary" textFill="#ffa2a2">
+               <font>
+                  <Font size="14.0" />
+               </font></Button>
+            <Button fx:id="backtomainmenu" mnemonicParsing="false" onAction="#backtomainmenu" prefHeight="42.0" prefWidth="136.0" style="-fx-background-color: black;" text="Main menu" textFill="#ffa2a2">
+               <font>
+                  <Font size="14.0" />
+               </font></Button>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

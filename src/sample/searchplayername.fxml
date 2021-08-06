@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.*?>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Searchplayername">
+   <children>
+      <Label layoutX="46.0" layoutY="134.0" prefHeight="35.0" prefWidth="148.0" style="-fx-background-color: #91903f;" text=" Player Name" textFill="#1100ff">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <TextField fx:id="playername" layoutX="215.0" layoutY="130.0" prefHeight="42.0" prefWidth="207.0">
+         <font>
+            <Font size="14.0" />
+         </font></TextField>
+      <Button fx:id="search" layoutX="404.0" layoutY="236.0" mnemonicParsing="false" onAction="#search" prefHeight="40.0" prefWidth="92.0" style="-fx-background-color: #0a0103;" text="Search" textFill="#00ff33">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="back" layoutX="283.0" layoutY="236.0" mnemonicParsing="false" onAction="#back" prefHeight="40.0" prefWidth="92.0" style="-fx-background-color: black;" text="Back" textFill="#ec031a">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <HBox alignment="CENTER" prefHeight="100.0" prefWidth="600.0" style="-fx-background-color: blue;">
+         <children>
+            <Label text="Give the Player Name" textFill="#f70505">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>

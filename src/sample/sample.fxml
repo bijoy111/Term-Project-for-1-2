@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.*?>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="355.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <HBox alignment="CENTER" prefHeight="83.0" prefWidth="600.0" style="-fx-background-color: blue;">
+         <children>
+            <Label text="Main Menu" textFill="#f70505">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+      <VBox layoutX="23.0" layoutY="102.0" prefHeight="238.0" prefWidth="128.0" spacing="15.0">
+         <children>
+            <Button fx:id="searchplayer" mnemonicParsing="false" onAction="#searchplayer" prefHeight="35.0" prefWidth="134.0" style="-fx-background-color: black;" text="Search" textFill="#ffa2a2">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="searchclubs" mnemonicParsing="false" onAction="#searchclubs" prefHeight="35.0" prefWidth="131.0" style="-fx-background-color: black;" text="Club Information" textFill="#ffa2a2">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="sellplayer" mnemonicParsing="false" onAction="#sellplayer" prefHeight="35.0" prefWidth="130.0" style="-fx-background-color: black;" text="Sell Player" textFill="#ffa2a2">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="buyplayer" mnemonicParsing="false" onAction="#buyplayer" prefHeight="35.0" prefWidth="130.0" style="-fx-background-color: black;" text="Buy Player" textFill="#ffa2a2">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="exit" mnemonicParsing="false" onAction="#exit" prefHeight="35.0" prefWidth="134.0" style="-fx-background-color: black;" text="Exit" textFill="#ffa2a2">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

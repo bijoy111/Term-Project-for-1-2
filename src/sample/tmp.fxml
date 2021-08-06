@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.*?>
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Tmp">
+   <children>
+      <AnchorPane layoutX="-2.0" />
+      <Label layoutX="104.0" layoutY="163.0" prefHeight="27.0" prefWidth="98.0" style="-fx-background-color: #91903f;" text=" Club Name" textFill="#1100ff">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="104.0" layoutY="225.0" prefHeight="27.0" prefWidth="98.0" style="-fx-background-color: #91903f;" text="  Password" textFill="#1100ff">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="clubname" layoutX="224.0" layoutY="156.0" prefHeight="35.0" prefWidth="150.0">
+         <font>
+            <Font size="14.0" />
+         </font></TextField>
+      <TextField fx:id="password" layoutX="224.0" layoutY="217.0" prefHeight="35.0" prefWidth="150.0">
+         <font>
+            <Font size="14.0" />
+         </font></TextField>
+      <Button fx:id="submit" layoutX="404.0" layoutY="290.0" mnemonicParsing="false" onAction="#submit" style="-fx-background-color: #0a0103;" text="Submit" textFill="#00ff33">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <HBox alignment="CENTER" layoutX="-2.0" prefHeight="100.0" prefWidth="619.0" style="-fx-background-color: blue;">
+         <children>
+            <Label text="Please Login First !!" textFill="#f70505">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>
