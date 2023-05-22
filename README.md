@@ -53,7 +53,23 @@
 
 
 # How to open the project
->You can check the youtube video given
+>
+>First you have to open the folder with Intellij IDEA 
+>Then you have to go File->Project Structure->Libraries 
+>
+><img src ="./README_assets/lib_idea.png"  width="60%" style="display: block;margin-left: auto;margin-right: auto;">
+>
+>Here you have to add the libraries provided in this repository named "openjfx-11.0.2_windows-x64_bin-sdk"
+>
+><img src ="./README_assets/lib.png"  width="60%" style="display: block;margin-left: auto;margin-right: auto;">
+>
+>Now you have to go to the Modules and then dependencies to add 4 jar file named  javafx.base.jar,javafx.controls.jar,javafx.fxml.jar,javafx.graphics.jar by clicking Plus->Jars or directories->Folder that clone the repository->openjfx-11.0.2_windows-x64_bin-sdk->The 4 jar file mentioned.
+>
+><img src ="./README_assets/dependencies_idea.png"  width="60%" style="display: block;margin-left: auto;margin-right: auto;">
+>
+><img src ="./README_assets/dependencies.png"  width="60%" style="display: block;margin-left: auto;margin-right: auto;">
+>
+>You can check the youtube video given if you face any problem to follow
 
 
 # In case you face any problem
